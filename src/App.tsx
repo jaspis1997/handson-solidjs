@@ -2,8 +2,8 @@ import { For, Match, type Setter, Show, Switch } from "solid-js";
 import { produce } from "solid-js/store";
 import "./App.scss";
 
-
-
+import { initShortcuts } from "./keyboard";
+import { initLeaveAlert } from "./leave";
 
 import {
   params,
