@@ -1,0 +1,42 @@
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.control-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 20px;
+    input[type="button"] {
+        padding: 10px 25px;
+    }
+}
+
+.edit-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-area {
+    width: 60vw;
+    max-width: 60%;
+    height: 600px;
+    max-height: 40vh;
+}
+
+.parameters-area {
+    width: 40vw;
+    max-width: 40%;
+    height: 600px;
+    max-height: 40vh;
+    border: 1px solid #ccc;
+}
+
+.preview-area {
+    width: 100%;
+    height: 600px;
+    max-height: 40vh;
+    border: 1px solid #ccc;
+}
